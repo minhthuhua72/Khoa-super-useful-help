@@ -1,0 +1,174 @@
+main {
+    margin-top: 140px;
+    margin-left: 13%;
+    margin-right: 13%;
+    display: block;
+}
+
+h1 {
+    text-align: justify;
+    font-size: 30px;
+    font-family: "Archivo Bold", sans-serif;
+    margin-bottom: 30px;
+}
+
+h1:last-of-type {
+    margin-top: 80px;
+}
+
+.vline {
+    border-bottom: 5px solid #ff6600;
+    padding-bottom: 5px;
+}
+
+.proSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.imgContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    width: fit-content;
+}
+
+.imgContainer>img {
+    width: 500px;
+    height: 500px;
+    margin-left: 40px;
+    object-fit: contain;
+}
+
+.imgContainer>.subContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 500px;
+}
+
+.imgContainer .subContainer img {
+    width: 150px;
+    height: 150px;
+
+}
+
+.detailsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 450px;
+    margin-left: 50px;
+    position: relative;
+}
+
+.detailsContainer>p {
+    color: #555454;
+    text-align: justify;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 35px;
+    color: #ff6600;
+}
+
+h4 {
+    color: #868585;
+}
+
+.color {
+    background-color: #000;
+    width: 25px;
+    height: 25px;
+    border: 2px solid #bfbfbf;
+    border-radius: 50px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.style {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.size button {
+    width: 50px;
+    height: 30px;
+    border: 1px solid #bfbfbf;
+    border-radius: 7px;
+    margin-right: 10px;
+    margin-top: 6px;
+    padding: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.btn {
+    margin-top: 20px;
+}
+
+.btn button {
+    padding: 15px 20px;
+    border-radius: 25px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.btn button:first-child {
+    margin-right: 20px;
+    background-color: #ff6600;
+    border: none;
+    color: #fff;
+}
+
+.btn button:last-child {
+    background-color: transparent;
+    border: 2px solid #ff6600;
+}
+
+.btn button:hover {
+    text-decoration: underline;
+}
+
+.size button:hover,
+.color:hover {
+    border: 2px solid #ff6600;
+}
+
+.color:hover {
+    background-color: #000;
+}
+
+.remSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.remSection img {
+    width: 250px;
+    height: 300px;
+    cursor: pointer;
+    object-fit: cover;
+}
+
+.remSection p {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.remSection p:hover {
+    color: #ff6600;
+}
