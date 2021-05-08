@@ -3,7 +3,7 @@
 }
 
 .mall-photo {
-    background-image: url(/imgs/robin-spielmann-uzjd9nNtqGg-unsplash.jpg);
+    background-image: url(../HTML-CSS-asm/imgs/robin-spielmann-uzjd9nNtqGg-unsplash.jpg);
     background-size: cover;
     height: 630px;
     display: flex;
